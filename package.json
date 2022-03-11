@@ -1,0 +1,33 @@
+{
+  "name": "repositorio-back-nodejs-manga",
+  "version": "1.0.0",
+  "description": "Repositorio de backend de API Manga usado nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./api",
+    "start": "node ./api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cuevacelis@bitbucket.org/cuevacelis/repositorio-back-nodejs-manga.git"
+  },
+  "author": "J.A.C.C",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/cuevacelis/repositorio-back-nodejs-manga#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongodb": "4.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
